@@ -17,5 +17,16 @@ end
 
 
 def find_the_cheese(cheese)
-  
+  array = []
+  cheese.map do |type|
+    if type == "cheddar"
+      array << "cheddar"
+    elsif type == "gouda"
+      array << "gouda"
+    elsif type == "camembert"
+      array << "camembert"
+    else
+    end
+  end
+  array[0]
 

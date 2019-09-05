@@ -28,6 +28,6 @@ def find_the_cheese(cheese)
     else
     end
   end 
-  array
+  array[0]
 end 
 

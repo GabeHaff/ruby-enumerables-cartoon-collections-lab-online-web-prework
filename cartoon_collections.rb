@@ -21,9 +21,9 @@ def find_the_cheese(cheese)
   cheese.map do |type|
     if type == "cheddar"
       array << "cheddar"
-    else type == "gouda"
+    elsif type == "gouda"
       array << "gouda"
-     if type == "camembert"
+     elsif type == "camembert"
       array << "camembert"
     else
     end

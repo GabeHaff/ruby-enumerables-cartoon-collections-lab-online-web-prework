@@ -29,5 +29,5 @@ def find_the_cheese(cheese)
     end
   end 
   array[0]
-  
+end 
 

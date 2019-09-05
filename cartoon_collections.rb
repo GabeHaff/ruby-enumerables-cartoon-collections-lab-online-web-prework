@@ -27,5 +27,7 @@ def find_the_cheese(cheese)
       array << "camembert"
     else
     end
+  end 
+  array[0]
   
 
